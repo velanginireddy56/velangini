@@ -3,7 +3,7 @@ pipeline{
 stages{
   stage(checkout){
     steps{
-      git clone "git@github.com:velanginireddy56/velangini.git", branch: 'main'
+      git branch: 'main', URL: 'https://github.com/velanginireddy56/velangini'
       
           }
       }
